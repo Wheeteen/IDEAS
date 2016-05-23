@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>创意A++</title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" href="../css/write.css" type='text/css'>
+	<script src='../js/jquery-2.1.4.min.js'></script>
+  <script type="text/javascript" src='../js/common.js'></script>
+  <script type="text/javascript" src='../js/write.js'></script>
+  <script type="text/javascript" charset="utf-8" src="../ueditor/ueditor.config.js"></script>
+  <script type="text/javascript" charset="utf-8" src="../ueditor/ueditor.all.min.js"> </script>
+  <script type="text/javascript" charset="utf-8" src="../ueditor/lang/zh-cn/zh-cn.js"></script>
+</head>
+<body>
+  	<!-- 写文章的字样   我的文章 -->
+    <div class="write_psge">
+      <div class="g_container">
+        <h1>写文章</h1>
+        <div class="my_psge">
+          我的文章
+        </div>
+      </div>
+    </div>
+   
+    <form action="__URL__/insert" method="post">
+      <!-- 上传首页的图片 -->
+      <div class="upload_pic">
+        <div class="g_container">
+          <!-- 中间提示上传图片的图 -->
+          <div class="add_img">
+            <img src="../img/camera.png" alt="">
+            <p>添加题图</p>
+          </div>
+          <!-- 上传图片的按钮 -->
+          <input type="file" id='img-file'>
+          <!-- <img src='' alt="" class='show_img'> -->
+        </div>
+      </div>
+    	<div class="input_title">
+    		<div class="g_container">
+         <input type="text" placeholder='请输入标题'>  
+        </div>
+    	</div>
+    	<div class="main_body">
+    		<script id="editor" type="text/plain" style='width:930px;height:500px;margin:40px auto 20px;'></script>
+    	</div>
+      <!-- 底部的标签 -->
+      <div class="nav_type">
+        <div class="g_container">
+          <!-- 类型的标签 -->
+          <div class="your_type">
+            <label for="">标签</label>
+            <select name="" id="">
+              <option value="">创意越过界</option>
+              <option value="">软文</option>
+              <option value="">微电影</option>
+              <option value="">网络游戏</option>
+              <option value="">综艺</option>
+            </select>
+          </div>
+          <!-- 权限，公开与否 -->
+          <div class="public">
+            <label for="">权限</label>
+            <select name="" id="">
+              <option value="">公开</option>
+              <option value="">仅自己可见</option>
+            </select>
+          </div>
+          <!-- 预览 保存草稿 -->
+          <div class="preview">
+            <button type='button' class='view'>预览</button>
+            <button type='button' class='store'>保存草稿</button>
+          </div>
+        </div>
+      </div>
+      <!-- 提交按钮 -->
+      <div class="submit_btn">
+        <div class="g_container">
+          <button>发表</button>
+        </div>
+      </div>
+    </form>
+    <script type="text/javascript">
+      //编辑器资源文件的路径
+      window.UEDITOR_HOME_URL = "/ideas/Public/Ueditor/"; 
+      // 实例化编辑器
+      UE.getEditor('editor',{
+        //选择需要的功能
+        toolbars:[['fullscreen', 'source', '|', 'undo', 'redo', 'selectall', 'cleardoc', '|', 'bold', 'italic', 'underline', 'strikethrough', 'backcolor', '|', 'forecolor', 'fontsize', 'fontfamily', 'justifyleft', 'justifyright', 'justifycenter', 'justifyjustify', 'autotypeset', 'insertorderedlist', 'insertunorderedlist', '|', 'link', 'insertimage', 'insertvideo', 'preview', 'emotion', 'horizontal', 'date', 'time']],
+        //focus时自动清空初始化时的内容  
+        autoClearinitialContent:true,  
+        //默认的编辑区域高度
+        initialFrameHeight:500,
+        //默认的编辑区域宽度
+        initialFrameWidth:930,
+      });
+    </script>
+</body>
+</html>

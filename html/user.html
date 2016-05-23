@@ -1,0 +1,932 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>创意A++</title>
+	<link rel="stylesheet" href="../css/common.css" type='text/css'>
+	<link rel="stylesheet" href="../css/user.css">
+    <script src='../js/jquery-2.1.4.min.js'></script>
+    <script type="text/javascript" src='../js/common.js'></script>
+    <script src='../js/user.js'></script>
+</head>
+<body>
+	<!-- 顶部弹出来的搜索栏 -->
+  	<div class="search">
+		<div class="search_wrapper">
+			<div class="close-s">×</div>
+			<div class="s-align">
+					<input type="text" placeholder='搜索' class="search_text"/>
+					<button type="button" class="img_search"></button>
+			</div>
+	    <!-- 搜索出来的联想结果 -->
+	    <ul class='s_result'>
+	    </ul>
+		</div>
+  	</div>
+  	<!-- 头部导航条 -->
+  	<div class="header">
+  		<div class="header-wrapper">
+  		  <div class="g_container">
+  		  	<div class="nav_wrap">
+  		  		<!-- logo -->
+  		  		<div class="logo">
+  		  			
+  		  		</div>
+  		  		<!-- 头部的导航栏 -->
+  		  		<ul class='top_nav'>
+	              <li><a href='index.html'>首页</a></li>
+	              <li><a href='topic.html'>主题站</a></li>
+	              <li><a href='community.html'>社区</a></li>
+	            </ul>
+  		  		<!-- 搜索按钮 -->
+                <div class="search_button"></div>
+  		  	</div>
+  		  	<!-- 提问 -->
+  		  	<div class="ask">
+  		  		<a href="#" class='ask_btn'>提问</a>
+  		  	</div>
+  		  	<!-- 登录和注册 -->
+  		  	<div class="register_wrap">
+  		  		<div class="register_wrapper">
+	              <div class="click_register">
+	                <span class="login_btn">登录</span>
+	                <span class='register_btn'>注册</span>
+	              </div>
+	              <div class="have-login">
+	                <div class="person">
+	                  <span class="per_name">HelloKitty</span>
+	                  <span class="per_img">
+	                    <img src="../img/name.png" alt=""></span>
+	                </div>
+	                <ul class="message">
+	                  <li class='m_icon01'>我的主页</li>
+	                  <li class="m_icon02">我的消息</li>
+	                  <li class="m_icon03">我的收藏</li>
+	                  <li class="m_icon04">我的资料</li>
+	                  <li class="m_icon05">注销用户</li>
+	                </ul>
+	              </div>    
+	            </div>
+  		  	</div>
+  		  </div>	
+  		</div>
+  	</div>
+  	<!-- 右侧边导航栏、固定 -->
+  	<div class="r_nav">
+  		<ul>
+  			<li class='u-icon01'>
+				<!-- 个人中心 -->
+	  			<div class="user-center">
+	  			  <span class='u-text'>个人中心</span>
+	  			  <span class='icon-pic1 add-icon'></span>
+	  			</div>
+  			</li>
+  			<li class='u-icon02'>
+  				<!-- 我的消息 -->
+  				<div class="user-tip">
+  				  <span class='u-text'>我的消息</span>
+	  			  <span class='icon-pic2 add-icon'></span>	
+  				</div>
+  			</li>
+  			<li class='u-icon03'>
+  				<!-- 我的收藏 -->
+  				<div class="user-collect">
+  				  <span class='u-text'>我的收藏</span>
+	  			  <span class='icon-pic3 add-icon'></span>
+  				</div>
+  			</li>
+  			<li class='u-icon04'>
+  				<!-- 我的提问 -->
+  				<div class="user-ask">
+  				  <span class='u-text'>我的提问</span>
+	  			  <span class='icon-pic4 add-icon'></span>
+  				</div>
+  			</li>
+  			<li class='u-icon05'>
+  				<!-- 我的回答 -->
+  				<div class="user-awer">
+  				  <span class='u-text'>我的回答</span>
+	  			  <span class='icon-pic5 add-icon'></span>
+  				</div>
+  			</li>
+  			<li class='u-icon06'>
+  				<!-- 我的文章 -->
+  				<div class="user-psge">
+  				  <span class='u-text'>我的文章</span>
+	  			  <span class='icon-pic6 add-icon'></span>
+  				</div>
+  			</li>
+  			<li class='u-icon07'>
+  				<!-- 我的设置 -->
+  				<div class="user-setting">
+  				  <span class='u-text'>我的设置</span>
+	  			  <span class='icon-pic7 add-icon'></span>
+  				</div>
+  			</li>
+  		</ul>
+  	</div>
+  	<!-- 个人中心的主要内容 -->
+  	<div class="userCenter-wrap">
+  		<div class="userCenter">
+	  	  <div class="g_container">
+	  	  	<!-- 用户个人信息 -->
+		    <div class="person_info">
+		      <div class="writer_pic">
+		      	<img src="../img/girl.jpg" alt="" class='blur'>
+	            <div class="w_img">
+	                <img src="../img/girl.jpg" alt="" class='myImg'>
+	            </div>
+	            <div class="writername">
+	                Labellll
+	            </div>
+		      </div>
+		        <!-- 个人信息下边的内容 -->
+		      <div class="bottom_con">
+		          <ul>
+		            <!-- 点赞数 -->
+		            <li class='love'>33</li>
+		            <!-- 收藏数 -->
+		            <li class='collect'>10</li>
+		            <!-- 被邀请回答数 -->
+		            <li class='reply'>20</li>
+		          </ul>
+		          <p class='introduce'>
+		           介绍一下自己吧，让别人更加了解你。
+		          </p>
+		      </div>
+		    </div>
+		    <!-- 用户编辑信息 -->
+		    <div class="edit-info">
+		    	<!-- 基本信息 -->
+		    	<div class="basic-info">
+		    		<h2>基本信息</h2>
+		    		<div class="l-line"></div>
+		    		<button type='button' class='changeName'>编辑</button>
+		    		<form enctype="multipart/form-data">
+			    		<ul class='basic-wrap'>
+			    			<li>
+			    			  <label for="">昵称</label>
+			    			  <div class="edit-text">
+			    			  	<div class="edit-textw">
+			    			  		<div class="original">
+				    			  		labelel
+				    			  	</div>
+				    			  	<div class="change-text">
+				    			  		<input type="text" placeholder='' class='getNick'>
+				    			  		<!-- 提示昵称不能为空等 -->
+				    			  		<span class='nickTip'></span>
+				    			  	</div>
+			    			  	</div>
+			    			  </div>
+			    			</li>
+			    			<li>
+			    			  <label for="">头像</label>
+			    			  <div class="upload-pic">
+			    			  	<div class="upload-picw">
+			    			  		<div class="upload-tip">
+				    			  		上传
+				    			  	</div>
+				    			  	<!-- 上传头像 -->
+				    			  	<div class="upload-img">
+				    			  	    <a href="">+</a>
+					    			    <input type='file' id='file'/>   	   
+				    			  	</div>
+	                                <!-- 提示头像不能为空 -->
+	                                <div class="ImgTip"></div>
+			    			  	</div>
+			    			  </div>	
+			    			</li>
+			    			<li>
+			    				<label for="">个人简介</label>
+			    				<div class="edit-introduction">
+			    					<div class="edit-intro">
+			    						<div class="original-info">
+			    						介绍一下自己吧，让别人更了解你
+				    					</div>
+				    					<div class="change-info">
+				    						<textarea class='myIntro'></textarea>
+				    					</div>
+				    					<!-- 提示个人简介不能为空 -->
+				    					<div class="IntroTip"></div>
+			    					</div>
+			    				</div>
+			    				<!-- 保存按钮 -->
+			    				<div class="keep-info submit-name">
+			    					<button type='button' id='basicBtn'>保存</button>
+			    				</div>
+			    			</li>
+			    		</ul>
+			    	</form>
+		    	</div>
+		    	<!-- 联系信息 -->
+		    	<div class="contact-info">
+		    		<h2>联系信息</h2>
+		    		<div class="l-line"></div>
+		    		<button type='button' class='contact-btn'>编辑</button>
+		    		<ul class='contact-wrap'>
+	                  <li>
+		    			  <label for="">手机</label>
+		    			  <div class="edit-email">
+		    			  	<div class="edit-emailw">
+		    			  		<div class="org-email">
+			    			  		18826108888
+			    			  	</div>
+			    			  	<div class="change-email">
+			    			  		<input type="text" class='getPhone'>
+			    			  	</div>
+			    			  	<div class="PhoneTip"></div>
+		    			  	</div>
+		    			  </div>
+		    		  </li>
+		    		  <li>
+		    		  	<label for="">邮箱</label>
+		    		  	<div class="phone">
+		    		  		<div class="phone-w">
+		    		  			<div class="phone-text">
+		    		  				填写你的邮箱
+		    		  			</div>
+		    		  			<div class="change-phone">
+		    		  				<input type="text" class='getEmail'>
+		    		  			</div>
+		    		  			<div class="EmailTip"></div>
+		    		  		</div>
+		    		  	</div>
+		    		  	<!-- 保存按钮 -->
+	    				<div class="keep-info phone-btn">
+	    					<button type='button' id='ContactBtn'>保存</button>
+	    				</div>
+		    		  </li>
+		    		</ul>
+		    	</div>
+		    	<!-- 话题信息 -->
+		    	<div class="topic-info">
+		    		<h2>话题信息</h2>
+		    		<div class="l-line"></div>
+		    		<button type='button' class='topic-btn'>编辑</button>
+		    		<ul class='topic-wrap'>
+		    			<li>
+		    			   <label for="">我的兴趣</label>
+		    			   <div class="edit-topic">
+		    			   	 <div class="edit-topicw">
+		    			   	 	<ul class='interest'>
+		    			   	 		<li>网络游戏</li>
+		    			   	 		<li>关卡设计</li>
+		    			   	 	</ul>
+		    			   	 	<div class="add-topic">
+		    			   	 		<!-- 可以删除兴趣 -->
+		    			   	 		<ul class='edit-interest'>
+			    			   	 		<li>网络游戏<span class='remove'>×</span></li>
+			    			   	 		<li>关卡设计<span class='remove'>×</span></li>
+			    			   	 	</ul>
+			    			   	 	<!-- 可以添加兴趣 -->
+			    			   	 	<div class="hot-topic">
+			    			   	 		<label for="">
+			    			   	 			热门标签：
+			    			   	 		</label>
+			    			   	 		<!-- 热门推荐 -->
+			    			   	 		<ul class='hot-recom'>
+			    			   	 			<li><span class='hot-text'>游戏推荐</span><span class='add-label'>＋</span></li>
+			    			   	 			<li><span class='hot-text'>电子竞技</span><span class='add-label'>＋</span></li>
+			    			   	 			<li><span class='hot-text'>自然科学</span><span class='add-label'>＋</span></li>
+			    			   	 			<li><span class='hot-text'>游戏推荐</span><span class='add-label'>＋</span></li>
+			    			   	 			<li><span class='hot-text'>自然科学</span><span class='add-label'>＋</span></li>
+			    			   	 			<li><span class='hot-text'>自然科学</span><span class='add-label'>＋</span></li>
+			    			   	 			<li><span class='hot-text'>自然科学</span><span class='add-label'>＋</span></li>
+			    			   	 		</ul>
+			    			   	 	</div>
+		    			   	 	</div>
+		    			   	 </div>
+		    			   </div>
+		    			   <!-- 保存按钮 -->
+		    				<div class="keep-info interest-btn">
+		    					<button type='button' id='TopicBtn'>保存</button>
+		    				</div>
+		    			</li>
+		    		</ul>
+		    	</div>
+		    </div>
+	  	  </div>
+	  	</div>
+  	</div>
+  	<!-- 我的消息的主要内容 -->
+  	<div class="userMessage">
+  		<div class="g_container">
+  			<div class="userMessage-wrap">
+  				<div class="tip-section"> 				
+ 					<div class="dian">
+ 						·
+ 					</div>
+ 					<div class="main-tip">
+ 						<p>
+  						欢迎来到ideas植入广告问答平台~
+	  					</p>
+	  					<p>
+	  						网页版特色功能指南《新人必看！ideas》
+	  					</p>
+	  					<div class="click-look">
+	  						点击查看
+	  					</div>
+ 					</div>
+  				</div>
+  				<div class="tip-section"> 				
+ 					<div class="dian">
+ 						·
+ 					</div>
+ 					<div class="main-tip">
+ 						<p>
+  						Nikey@你并邀请你回答电子竞技话题
+	  					</p>	  					
+	  					<div class="click-look">
+	  						点击查看
+	  					</div>
+ 					</div>
+  				</div>
+  				<div class="tip-section"> 				
+ 					<div class="dian">
+ 						·
+ 					</div>
+ 					<div class="main-tip">
+ 						<p>
+  						Susan回答了你的提问“电视剧里的植入广告模式是怎样的？”
+	  					</p>	  			
+	  					<div class="click-look">
+	  						点击查看
+	  					</div>
+ 					</div>
+  				</div>
+  				<div class="tip-section"> 				
+ 					<div class="dian">
+ 						·
+ 					</div>
+ 					<div class="main-tip">
+ 						<p>
+  						你的软文《我为自己的平庸焦头烂额》通过审核并成功发布
+	  					</p>	  			
+	  					<div class="click-look">
+	  						点击查看
+	  					</div>
+ 					</div>
+  				</div>
+  				<div class="tip-section"> 				
+ 					<div class="dian">
+ 						·
+ 					</div>
+ 					<div class="main-tip">
+ 						<p>
+  						你的软文《我为自己的平庸焦头烂额》通过审核并成功发布
+	  					</p>	  			
+	  					<div class="click-look">
+	  						点击查看
+	  					</div>
+ 					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<!-- 我的收藏的主要内容 -->
+  	<div class="userCollect">
+  		<div class="g_container">
+  			<!-- 左边的提示分类 -->
+  			<div class="leftCet">
+  				<ul>
+  					<li class='topic1'><span class='icon01'></span><a href="" id='passage'>软文</a></li>
+			        <li class='topic2'><span class='icon02'></span><a href="" id='show'>综艺</a></li>
+			        <li class='topic3'><span class='icon03'></span><a href="" id='movie'>微电影</a></li>
+			        <li class='topic4'><span class='icon04'></span><a href="" id='game'>网络游戏</a></li>
+			        <li class='topic5'><span class='icon05'></span><a href="" id='ideas'>创意越过界</a></li>
+  				</ul>
+  			</div>
+  			<!-- 右边的用户收藏的详细软文信息，同主题站 -->
+  			<div class="rightCet">
+  			  <div class="waterfall">
+  			  	<div class="section">
+		            <div class="section_w">
+		              <div class="top_part">
+		                <img src="../img/image/pic_1.2.png" alt="" class='image'/>          
+		                <button type='button' class='type'>
+		                   创意越过界
+		                </button>
+		                <div class="top_wrap">
+		                  <div class="writer">
+		                    <p>来自</p>
+		                    <p>Jsuan Seaennene</p>
+		                  </div>
+		                </div>
+		              </div>
+		              <div class="describe">
+		                <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+		              </div>
+		              <ul class='bottom_part'>
+		                <li class='b_icon01'><span>657</span></li>
+		                <li class='b_icon02'><span>56</span></li>
+		                <li class='b_icon03'><span>23</span></li>
+		              </ul>
+		            </div>
+		        </div>
+		        <div class="section">
+		            <div class="section_w">
+		              <div class="top_part">
+		                <img src="../img/image/pic_1.4.png" alt="" class='image'/>          
+		                <button type='button' class='type'>
+		                   创意越过界
+		                </button>
+		                <div class="top_wrap">
+		                  <div class="writer">
+		                    <p>来自</p>
+		                    <p>Jsuan Seaennene</p>
+		                  </div>
+		                </div>
+		              </div>
+		              <div class="describe">
+		                <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+		              </div>
+		              <ul class='bottom_part'>
+		                <li class='b_icon01'><span>657</span></li>
+		                <li class='b_icon02'><span>56</span></li>
+		                <li class='b_icon03'><span>23</span></li>
+		              </ul>
+		            </div>
+		        </div>
+		        <div class="section">
+		            <div class="section_w">
+		              <div class="top_part">
+		                <img src="../img/image/pic_2.1.png" alt="" class='image'/>          
+		                <button type='button' class='type'>
+		                   创意越过界
+		                </button>
+		                <div class="top_wrap">
+		                  <div class="writer">
+		                    <p>来自</p>
+		                    <p>Jsuan Seaennene</p>
+		                  </div>
+		                </div>
+		              </div>
+		              <div class="describe">
+		                <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+		              </div>
+		              <ul class='bottom_part'>
+		                <li class='b_icon01'><span>657</span></li>
+		                <li class='b_icon02'><span>56</span></li>
+		                <li class='b_icon03'><span>23</span></li>
+		              </ul>
+		            </div>
+		        </div>
+  			  </div>
+  			</div>
+  		</div>
+  	</div>
+  	<!-- 我的设置的主要内容 -->
+  	<div class="userSetting">
+  		<div class="g_container">
+  			<div class="userSetting-wrap">
+  				<!-- 消息设置 -->
+  				<div class="msg-setting">
+  					<h3>消息设置</h3>
+  					<div class="msg">
+  						<div class="msg-text">
+  							@我邀请回答
+  						</div>
+  						<div class="open-close">
+  							<input type="button" value='关闭'>
+  						</div>
+  					</div>
+  					<div class="msg">
+  						<div class="msg-text">
+  							评论我的文章
+  						</div>
+  						<div class="open-close">
+  							<input type="button" value='关闭'>
+  						</div>
+  					</div>
+  					<div class="msg">
+  						<div class="msg-text">
+  							得到赞
+  						</div>
+  						<div class="open-close">
+  							<input type="button" value='关闭'>
+  						</div>
+  					</div>
+  					<div class="msg">
+  						<div class="msg-text">
+  							被收藏
+  						</div>
+  						<div class="open-close">
+  							<input type="button" value='关闭'>
+  						</div>
+  					</div>
+  					<div class="msg">
+  						<div class="msg-text">
+  							得到回答
+  						</div>
+  						<div class="open-close">
+  							<input type="button" value='关闭'>
+  						</div>
+  					</div>
+  				</div>
+  				<!-- 偏好设置 -->
+  				<div class="favor-setting">
+  					<h3>偏好设置</h3>
+  					<div class="favor">
+  						<h4>感兴趣的话题</h4>
+  						<ul>
+  							<li><button type='button'>自然科学</button></li>
+  							<li><button type='button'>职业发展</button></li>
+  							<li><button type='button'>金融</button></li>
+  							<li><button type='button'>文化</button></li>
+  						</ul>
+  					</div>
+  					<div class="favor">
+  						<h4>更多热门话题推荐</h4>
+  						<ul>
+  							<li><button type='button'>游戏</button></li>
+  							<li><button type='button'>运动</button></li>
+  							<li><button type='button'>法律</button></li>
+  							<li><button type='button'>投资</button></li>
+  							<li><button type='button'>足球</button></li>
+  							<li><button type='button'>经济学</button></li>
+  							<li><button type='button'>生物学</button></li>
+  							<li><button type='button'>物理学</button></li>
+  							<li><button type='button'>健康</button></li>
+  						</ul>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<!-- 我的文章的主要内容 -->
+  	<div class="userPassage">
+  		<div class="g_container">
+  			<!-- 左边的分类 -->
+  			<div class="leftCet">
+  				<h2>what's your ideas?</h2>
+  				<ul>
+  					<li class='topic1'><span class='icon01'></span><a href="" id='passage'>软文</a></li>
+			        <li class='topic2'><span class='icon02'></span><a href="" id='show'>综艺</a></li>
+			        <li class='topic3'><span class='icon03'></span><a href="" id='movie'>微电影</a></li>
+			        <li class='topic4'><span class='icon04'></span><a href="" id='game'>网络游戏</a></li>
+			        <li class='topic5'><span class='icon05'></span><a href="" id='ideas'>创意越过界</a></li>
+  				</ul>
+  			</div>
+  			<!-- 右边有写文章的按钮，我写的文章的内容 -->
+  			<div class="rightCet">
+  			  <!-- 写文章 -->
+              <div class="write">
+    			<button type='button' class='create'>
+    				写文章
+    			</button>
+	    	  </div>
+  			  <div class="waterfall">
+  			  	<div class="section">
+		            <div class="section_w">
+		              <div class="top_part">
+		                <img src="../img/image/pic_1.2.png" alt="" class='image'/>          
+		                <button type='button' class='type'>
+		                   创意越过界
+		                </button>
+		                <div class="top_wrap">
+		                  <div class="writer">
+		                    <p>来自</p>
+		                    <p>Jsuan Seaennene</p>
+		                  </div>
+		                </div>
+		              </div>
+		              <div class="describe">
+		                <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+		              </div>
+		              <ul class='bottom_part'>
+		                <li class='b_icon01'><span>657</span></li>
+		                <li class='b_icon02'><span>56</span></li>
+		                <li class='b_icon03'><span>23</span></li>
+		              </ul>
+		            </div>
+		        </div>
+		        <div class="section">
+		            <div class="section_w">
+		              <div class="top_part">
+		                <img src="../img/image/pic_1.4.png" alt="" class='image'/>          
+		                <button type='button' class='type'>
+		                   创意越过界
+		                </button>
+		                <div class="top_wrap">
+		                  <div class="writer">
+		                    <p>来自</p>
+		                    <p>Jsuan Seaennene</p>
+		                  </div>
+		                </div>
+		              </div>
+		              <div class="describe">
+		                <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+		              </div>
+		              <ul class='bottom_part'>
+		                <li class='b_icon01'><span>657</span></li>
+		                <li class='b_icon02'><span>56</span></li>
+		                <li class='b_icon03'><span>23</span></li>
+		              </ul>
+		            </div>
+		        </div>
+		        <div class="section">
+		            <div class="section_w">
+		              <div class="top_part">
+		                <img src="../img/image/pic_2.1.png" alt="" class='image'/>          
+		                <button type='button' class='type'>
+		                   创意越过界
+		                </button>
+		                <div class="top_wrap">
+		                  <div class="writer">
+		                    <p>来自</p>
+		                    <p>Jsuan Seaennene</p>
+		                  </div>
+		                </div>
+		              </div>
+		              <div class="describe">
+		                <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+		              </div>
+		              <ul class='bottom_part'>
+		                <li class='b_icon01'><span>657</span></li>
+		                <li class='b_icon02'><span>56</span></li>
+		                <li class='b_icon03'><span>23</span></li>
+		              </ul>
+		            </div>
+		        </div>
+  			  </div>
+  			</div>
+  		</div>
+  	</div>
+  	<!-- 我的提问 -->
+  	<div class="userAsk">
+  		<div class="g_container">
+  		  <!-- 每一个提问 -->
+  		  <div class="userAsk-wrap">
+  		  	<!-- 一个又一个提问 -->
+  		  	<div class="ask01">
+				<div class="personal">
+					<span>
+						<img src="../img/name.png" alt="" class='perImg'>
+					</span>
+					<span class='name_nick'>Slieneren</span>
+				</div>
+				<div class="describe-ask">
+					<span class='spot'></span>
+					<span class='hot_answer'>热门回答</span>
+					<span class='form'>来自where</span>
+				</div>
+				<p class='s_title'>
+					如何在微信推文中植入‘环球雅思’的广告?
+				</p>
+				<p class='b_answer'>
+					在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下...
+				</p>
+				<div class="checkAll">
+	              <div class="look_all">查看全部</div>
+	            </div>
+				<!-- 获得回答数 -->
+				<div class="bottom">
+					<ul class='bottom-part'>
+						<span>获得回答：</span>
+						<span>333</span>
+						<span class='getTime'>2016-04-36 17:28:25</span>
+		            </ul>
+		            <div class="copywrite">
+		            	<span class='spot'></span>
+		            	<span>作者保留权利</span>
+		            </div>
+				</div>
+			</div>
+			<div class="ask01">
+				<div class="personal">
+					<span>
+						<img src="../img/name.png" alt="">
+					</span>
+					<span class='name_nick'>Slieneren</span>
+				</div>
+				<div class="describe-ask">
+					<span class='spot'></span>
+					<span class='hot_answer'>热门回答</span>
+					<span class='form'>来自where</span>
+				</div>
+				<p class='s_title'>
+					如何在微信推文中植入‘环球雅思’的广告?
+				</p>
+				<p class='b_answer'>
+					在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下...
+				</p>
+				<div class="checkAll">
+	              <div class="look_all">查看全部</div>
+	            </div>
+				<!-- 获得回答数 -->
+				<div class="bottom">
+					<ul class='bottom-part'>
+						<span>获得回答：</span>
+						<span>333</span>
+						<span class='getTime'>2016-04-36 17:28:25</span>
+	                </ul>
+		            <div class="copywrite">
+		            	<span class='spot'></span>
+		            	<span>作者保留权利</span>
+		            </div>
+				</div>
+			</div>
+  		  </div>
+          
+  		</div>
+  	</div>
+  	<!-- 我的回答 -->
+  	<div class="userAnswer">
+  		<div class="g_container">
+  			<div class="userAnswer-wrap">
+  				<!-- 一个又一个的回答 -->
+  			  <div class="ask01">
+					<div class="personal">
+						<span>
+							<img src="../img/name.png" alt="">
+						</span>
+						<span class='name_nick'>Slieneren</span>
+					</div>
+					<div class="describe-ask">
+						<span class='spot'></span>
+						<span class='hot_answer'>热门回答</span>
+						<span class='form'>来自where</span>
+					</div>
+					<p class='s_title'>
+						如何在微信推文中植入‘环球雅思’的广告?
+					</p>
+					<p class='b_answer'>
+						在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下...<span class="look_all">查看全部</span>
+					</p>
+					<!-- 获得回答数 -->
+					<div class="bottom">
+  						<ul class='bottom_part'>
+			                <li class='b_icon01'><span>657</span></li>
+			                <li class='b_icon02'><span>56</span></li>
+			                <li class='b_icon03'><span>23</span></li>
+					     </ul>
+			            <div class="copywrite">
+			            	<span class='spot'></span>
+			            	<span>作者保留权利</span>
+			            </div>
+  					</div>
+			  </div>
+			  <div class="ask01">
+					<div class="personal">
+						<span>
+							<img src="../img/name.png" alt="">
+						</span>
+						<span class='name_nick'>Slieneren</span>
+					</div>
+					<div class="describe-ask">
+						<span class='spot'></span>
+						<span class='hot_answer'>热门回答</span>
+						<span class='form'>来自where</span>
+					</div>
+					<p class='s_title'>
+						如何在微信推文中植入‘环球雅思’的广告?
+					</p>
+					<p class='b_answer'>
+						在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下，在激烈的市场中竞争和政策调整的影响下...<span class="look_all">查看全部</span>
+					</p>
+					<!-- 获得回答数 -->
+					<div class="bottom">
+  						<ul class='bottom_part'>
+			                <li class='b_icon01'><span>657</span></li>
+			                <li class='b_icon02'><span>56</span></li>
+			                <li class='b_icon03'><span>23</span></li>
+					     </ul>
+			            <div class="copywrite">
+			            	<span class='spot'></span>
+			            	<span>作者保留权利</span>
+			            </div>
+  					</div>
+			  </div>	
+  			</div>
+  		</div>
+  	</div>
+  	 <!-- 覆盖一整个页面的灰屏 -->
+    <div class="grey"></div>
+    <!-- 提问弹出框-->
+    <div class="quiz">
+      <div class="close">
+       ×
+      </div>
+      <div class="quiz_wrap">
+        <h1>提问</h1>
+        <div class="write_pbm">
+          <textarea placeholder='写下你的问题' class='yourQuiz01'></textarea>
+        </div>
+        <!-- 提示一定要写下你的问题 -->
+        <div class="No-question"></div>
+        <div class="describe_pbm">
+          <textarea placeholder='写下你的问题描述（问题背景，条件等详细信息）' class='yourQuiz02'></textarea>
+        </div>
+        <!-- 提示一定要写下问题描述 -->
+        <div class="No-describe"></div>
+        <div class="keyword">
+           <textarea placeholder='写下你的问题的关键词' class='yourQuiz03'></textarea>
+        </div>
+        <!-- 提示一定要写下你的关键词 -->
+        <div class="No-key"></div>
+        <div class="about_asw">
+          <div class="anonymity">
+            <label for="">
+              <input type="checkbox" class='checkbox'>
+            </label>
+            <label for="" class='hide_name'>匿名</label>
+          </div>
+          <div class="invite_asw">
+            <button type='button' class='invite_per'>邀请回答</button>
+          </div>
+        </div>
+        <div class="publish">
+          <button type='button' class='submitButton'>发布</button>
+        </div>
+      </div>
+    </div>
+    <!-- 弹出邀请回答框 -->
+    <div class="invite">
+      <div class="close-invite">
+       ×
+      </div>
+      <div class="invite_wrap">
+        <!-- 搜索邀请用户的框 -->
+        <div class="srch_wrap">
+          <div class="srch_user">
+            <!-- 搜索的button -->
+            <button type='button' class='srch_btn'></button>
+            <input type="text" placeholder='搜索你想邀请的用户'>
+            <!-- 用户搜索出来的结果排列 -->
+            <ul class='srch_result'>
+             <!--  <li>111</li>
+              <li>652</li>
+              <li>652</li>
+              <li>652</li> -->
+            </ul>
+          </div>
+        </div>
+        <p class='about_ivite'> 
+          邀请相关用户回答，快速获得问题回答
+        </p>
+        <h3>热门用户</h3>
+        <!-- 用户名·相关话题等 -->
+         <div class="hot_person">
+            <!-- 用户名 -->
+            <p>
+              <span><img src="../img/user01.png" alt=""></span>  
+              <span class='hot_name'>用户名</span>
+            </p>
+            <!-- 相关话题 -->
+            <div class="hot_topic">
+              <label for="">相关话题</label>
+              <ul>
+                <li>网络游戏</li>
+                <li>电子竞技</li>
+                <li>游戏策划</li>
+              </ul>
+              <!-- 邀请按钮 -->
+              <div class="invite_btn">
+                <button type='button'>邀请</button>
+              </div>
+            </div>
+        </div>
+         <div class="hot_person">
+            <!-- 用户名 -->
+            <p>
+              <span><img src="../img/user01.png" alt=""></span>  
+              <span class='hot_name'>用户名</span>
+            </p>
+            <!-- 相关话题 -->
+            <div class="hot_topic">
+              <label for="">相关话题</label>
+              <ul>
+                <li>网络游戏</li>
+                <li>电子竞技</li>
+                <li>游戏策划</li>
+              </ul>
+              <!-- 邀请按钮 -->
+              <div class="invite_btn">
+                <button type='button'>邀请</button>
+              </div>
+            </div>
+        </div>
+         <div class="hot_person">
+            <!-- 用户名 -->
+            <p>
+              <span><img src="../img/user01.png" alt=""></span>  
+              <span class='hot_name'>用户名</span>
+            </p>
+            <!-- 相关话题 -->
+            <div class="hot_topic">
+              <label for="">相关话题</label>
+              <ul>
+                <li>网络游戏</li>
+                <li>电子竞技</li>
+                <li>游戏策划</li>
+              </ul>
+              <!-- 邀请按钮 -->
+              <div class="invite_btn">
+                <button type='button'>邀请</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

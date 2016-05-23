@@ -1,0 +1,387 @@
+html,body{
+	background-color:#e6e6e6; 
+}
+.content{
+	margin-top: 60px;
+}
+.con_title{
+	font-size: 24px;
+	color:#635c94;
+	text-indent: 50px;
+	margin-left: 12px;
+	height: 30px;
+	margin-bottom: 40px;
+	cursor:pointer;
+	background: url(../img/text.png) no-repeat left;
+}
+.con_title:hover,.headline:hover{
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+
+.main_con{
+	width:790px;
+	float: left;
+}
+
+.passage{
+	width:700px;
+	padding:30px 60px 30px 30px;
+	background: #c9c9c9;
+	margin-bottom: 40px;
+}
+.headline{
+	color:#4d4747;
+	margin-bottom:30px;
+	font-size: 36px;
+	font-weight: normal;
+	cursor: pointer;
+}
+.w_detail{
+	width:100%;
+	height: 30px;
+	margin-bottom: 30px;
+	font-size: 12px;
+	color:#484747;
+	overflow: hidden;
+}
+.publish{
+	float: left;
+	margin-right: 20px;
+}
+.publish span{
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	cursor:pointer;
+}
+.pub{
+	width:53px;
+	height: 22px;
+	line-height: 22px;
+	border-radius: 5px;
+	text-align: center;
+	background: #4c4c4c;
+	margin-right: 15px;
+	color:#fff;
+}
+.date{
+	float: left;
+	margin-top: 2px;
+}
+.date span{
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+.right_part{
+	float: right;
+	margin-top: 2px;
+}
+.right_part li{
+	cursor:pointer;
+	font-size: 12px;
+	color:#646464;
+	float: left;
+	display: inline-block;
+	text-indent: 30px;
+	margin-right: 40px;
+}
+.right_part li:hover{
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+.b_icon01
+{
+	background: url(../img/browse.png) no-repeat -10px -3px;
+}
+.b_icon02
+{
+	background: url(../img/praise.png) no-repeat -10px -3px;
+}
+.b_icon03
+{
+	background: url(../img/comment.png) no-repeat -10px -3px;
+}
+.paragraph{
+	height: auto;
+	width:100%;
+	margin-bottom: 30px;
+	font-size: 14px;
+	line-height: 26px;
+	color:#4d4747;
+}
+.paragraph p{
+	margin-bottom: 30px;
+}
+.paragraph img{
+	width:100%;
+	height: auto;
+}
+.paragraph h4{
+	width:100%;
+	text-align: center;
+	line-height: 26px;
+	margin-bottom: 7px;
+}
+.copr,.aboutUs{
+	font-size: 14px;
+	margin-bottom: 15px;
+    color:#4d4747;
+    line-height: 26px;
+}
+.praise{
+	width:100px;
+	margin:10px auto 20px;
+    text-align: center;	
+    margin-bottom: 20px;
+    color:#363332;
+    font-size: 14px;
+}
+.praise_btn{
+	width:93px;
+	height: 98px;
+	background: url(../img/praise01.png) no-repeat;
+	background-size: 93px 98px;
+	cursor:pointer;
+	line-height: 145px;
+	margin-bottom: 10px;
+}
+
+.praise_btn:hover{
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+.collect_btn{
+	width:100%;
+	height: 36px;
+	position: relative;
+	overflow: hidden;
+}
+.collect_btn button{
+	width:126px;
+	height: 36px;
+	position: absolute;
+	left:50%;
+	margin-left: -63px;
+	background-color: #d63f3e;
+	cursor: pointer;
+	border-radius: 6px;
+	border:none;
+	color:#fff;
+	font-size: 18px;
+	line-height: 36px;
+}
+.hot{
+	display: inline-block;
+	width:30px;
+	height: 36px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 7px;
+   background: url(../img/collect_user.png) no-repeat right;
+} 
+
+.hot_collect{
+	float: left;
+}
+.write_comment{
+	width:700px;
+	padding:30px 60px 30px 30px;
+	background: #c9c9c9;
+	margin-bottom: 30px;
+}
+.write_comment h3{
+	font-size: 20px;
+	color:#4c4646;
+	margin:10px 0 20px 0;
+}
+.write_comment textarea{
+	width:705px;
+	border:none;
+	height: 80px;
+	outline: none;
+	resize:none;
+	border-radius: 5px;
+	background:#a5a09f;
+	text-indent: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	scrollbar-base-color:#272727;
+}
+.comment-tip{
+	color:red;
+	width:100%;
+	margin-bottom: 5px;
+}
+.comment_btn{
+	width:100%;
+	overflow: hidden;
+}
+.comment_btn button{
+	width:106px;
+	height: 36px;
+	background: #a5a09f;
+	border-radius: 4px;
+	color:#4c4646;
+	border:none;
+	font-size: 18px;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	margin-top: 10px;
+	outline: none;
+	cursor:pointer;
+}
+.right_info{
+    float: left;
+    margin-left: 20px;
+	height: auto;
+	width:356px;
+}
+.person_info{
+	background: #c9c9c9;
+	width:350px;
+	border:3px solid #fff;
+	border-radius: 5px;
+}
+.writer_pic{
+	width:100%;
+	height: 290px;
+	/*border:1px solid red;*/
+	position: relative;
+}
+.blur{
+	position: absolute;
+	top:0px;
+	width:350px;
+	height: 285px;
+	filter:alpha(opacity=20);
+	 -webkit-filter: blur(30px); /* Chrome, Opera */
+     -moz-filter: blur(30px);
+     -ms-filter: blur(30px);  
+     -o-filter:blur(30px);  
+     filter: blur(30px);  
+     filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='30', MakeShadow='true');   /*  IE6~IE9  */
+}
+.w_img img{
+   position: absolute;
+	width:160px;
+	height: 160px;
+	top:50%;
+	left:50%;
+	margin-top: -80px;
+	margin-left: -80px;
+	border-radius: 50%;
+	border:4px solid #fff;
+	cursor: pointer;
+}
+.writername{
+	position: absolute;
+	top:243px;
+	width:100%;
+	height: 25px;
+	text-align: center;
+	font-size: 18px;
+	color:#e9e9e9;
+	font-size: 20px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.person_info ul{
+	overflow: hidden;
+	margin-bottom: 
+}
+.person_info ul li{
+	float: left;
+	margin-right: 42px;
+	width:60px;
+	font-size: 14px;
+	text-indent: 30px;
+	color:#fff;
+	cursor:pointer;
+}
+.love{
+	background: url(../img/praise_user.png) no-repeat 0px -3px;
+}
+.collect{
+	background: url(../img/collect_user.png) no-repeat 0px 3px;
+}
+.reply{
+	background: url(../img/answer_user.png) no-repeat -2px 3px;
+}
+.bottom_con{
+	width:310px;
+	padding:10px 20px;
+	background: #b1b3b3;
+	color:#625656;
+	font-size: 16px;
+	line-height: 28px;
+	border-radius: 5px;
+}
+.introduce{
+	cursor:pointer;
+}
+.comment{
+	width:296px;
+	padding:30px;
+	background:#c9c9c9; 
+	border-radius: 5px;
+	margin-top:20px;
+}
+.comment h3{
+	margin:0px 0 10px 0;
+	font-size: 20px;
+	height: 20px;
+	color:#4c4646;
+}
+.line01{
+	display: inline-block;
+	width:100%;
+	height: 0;
+	border-bottom: 2px solid #a8a8a8;
+}
+
+.c_ment{
+	width:100%;
+	padding:20px 0;
+	border-bottom: 2px solid #a8a8a8;
+}
+.CommentUser{
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+.c_ment span{
+   display: inline-block;
+   float: left;
+   font-size: 14px;
+   color:#625656;
+   margin-right: 10px;
+}
+.userPic{
+	width:30px;
+	height: 30px;
+}
+.get_name{
+	margin-top: 6px;
+}
+.view{
+	clear: both;
+	font-size: 14px;
+	padding: 10px;
+	width:276px;
+	height: auto;
+	background: #A8A8A8;
+	border-radius: 4px;
+	position: relative;
+}
+.triangle-up{
+	position: absolute;
+	top:-10px;
+	left:45px;
+	width:0;
+	height:0;   
+	border-left:10px solid transparent;   
+	border-right:10px solid transparent;   
+	border-bottom:10px solid #A8A8A8;
+}

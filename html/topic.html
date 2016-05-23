@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>创意A++</title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/topic.css">
+	<script src='../js/jquery-2.1.4.min.js'></script>
+  <script type="text/javascript" src='../js/check.js'></script>
+	<script type="text/javascript" src='../js/common.js'></script>
+	<script type="text/javascript" src='../js/topic.js'></script>
+</head>
+<body>
+   <!-- 顶部弹出来的搜索栏 -->
+  	<div class="search">
+  		<div class="search_wrapper">
+  			<div class="close-s">×</div>
+  			<div class="s-align">
+				<input type="text" placeholder='搜索' class="search_text"/>
+				<button type="button" class="img_search"></button>
+  			</div>
+	        <!-- 搜索出来的联想结果 -->
+	        <ul class='s_result'>
+	        </ul>
+  		</div>
+  	</div>
+     <!-- 头部导航条 -->
+  	<div class="header">
+  		<div class="header-wrapper">
+  		  <div class="g_container">
+  		  	<div class="nav_wrap">
+  		  		<!-- logo -->
+  		  		<div class="logo">
+  		  			
+  		  		</div>
+  		  		<!-- 头部的导航栏 -->
+  		  		<ul class='top_nav'>
+              <li><a href='index.html'>首页</a></li>
+              <li><a href='topic.html'>主题站</a></li>
+              <li><a href='community.html'>社区</a></li>
+            </ul>
+  		  		<!-- 搜索按钮 -->
+            <div class="search_button"></div>
+  		  	</div>
+  		  	<!-- 提问 -->
+  		  	<div class="ask">
+  		  		<a href="#" class='ask_btn'>提问</a>
+  		  	</div>
+  		  	<!-- 登录和注册 -->
+  		  	<div class="register_wrap">
+  		  		<div class="register_wrapper">
+	              <div class="click_register">
+	                <span class="login_btn">登录</span>
+	                <span class='register_btn'>注册</span>
+	              </div>
+	              <div class="have-login">
+	                <div class="person">
+	                  <span class="per_name">HelloKitty</span>
+	                  <span class="per_img">
+	                    <img src="../img/name.png" alt=""></span>
+	                </div>
+	                <ul class="message">
+	                  <li class='m_icon01'>我的主页</li>
+	                  <li class="m_icon02">我的消息</li>
+	                  <li class="m_icon03">我的收藏</li>
+	                  <li class="m_icon04">我的资料</li>
+	                  <li class="m_icon05">注销用户</li>
+	                </ul>
+	              </div>    
+	            </div>
+  		  	</div>
+  		  </div>	
+  		</div>
+  	</div>
+  	<!-- 主体内容 -->
+  	<div class="main">
+  		<div class="g_container">
+  			<!-- 左边主题分类，fixed -->
+  			<div class="left_main">
+  				<h1>如何优雅地植入广告？</h1>
+  				<ul>
+  					<li class='topic1'><span class='icon01'></span><a href="" id='passage'>软文</a></li>
+		        <li class='topic2'><span class='icon02'></span><a href="" id='show'>综艺</a></li>
+		        <li class='topic3'><span class='icon03'></span><a href="" id='movie'>微电影</a></li>
+		        <li class='topic4'><span class='icon04'></span><a href="" id='game'>网络游戏</a></li>
+		        <li class='topic5'><span class='icon05'></span><a href="" id='ideas'>创意越过界</a></li>
+  				</ul>
+		    </div>
+		    <!-- 右边的分类表示 -->
+		    <div class="right_main">
+		    	<div class="top_title">
+		    		<div class="write">
+		    			<button type='button' class='create'>
+		    				写文章
+		    			</button>
+		    		</div>
+		    		<!-- 最上面的分类最新最热 -->
+		    		<div class="hottest">
+		    			<ul>
+		    				<li class='h_icon01'>最新</li>
+		    				<li class='h_icon02'>最热</li>
+		    			</ul>
+		    		</div>
+		    	</div>
+		    	<!-- 瀑布流的主要内容，筛选的内容 -->
+		    	<div class="waterfall">
+		    		
+            <div class="section">
+                <div class="section_w">
+                  <div class="top_part">
+                    <img src="../img/pic_1.1.png" alt="" class='image'/>          
+                    <button type='button' class='type'>
+                       创意越过界
+                    </button>
+                    <div class="top_wrap">
+                      <div class="writer">
+                        <p>来自</p>
+                        <p>Jsuan Seaennene</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="describe">
+                    <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+                  </div>
+                  <ul class='bottom_part'>
+                    <li class='b_icon01'><span>657</span></li>
+                    <li class='b_icon02'><span>56</span></li>
+                    <li class='b_icon03'><span>23</span></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section_w">
+                  <div class="top_part">
+                    <img src="../img/image/pic_1.2.png" alt="" class='image'/>          
+                    <button type='button' class='type'>
+                       创意越过界
+                    </button>
+                    <div class="top_wrap">
+                      <div class="writer">
+                        <p>来自</p>
+                        <p>Jsuan Seaennene</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="describe">
+                    <p>inpulse街头艺术，让童心美成一道光街头艺术</p>
+                  </div>
+                  <ul class='bottom_part'>
+                    <li class='b_icon01'><span>657</span></li>
+                    <li class='b_icon02'><span>56</span></li>
+                    <li class='b_icon03'><span>23</span></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section_w">
+                  <div class="top_part">
+                    <img src="../img/image/pic_1.4.png" alt="" class='image'/>          
+                    <button type='button' class='type'>
+                       创意越过界
+                    </button>
+                    <div class="top_wrap">
+                      <div class="writer">
+                        <p>来自</p>
+                        <p>Jsuan Seaennene</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="describe">
+                    <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+                  </div>
+                  <ul class='bottom_part'>
+                    <li class='b_icon01'><span>657</span></li>
+                    <li class='b_icon02'><span>56</span></li>
+                    <li class='b_icon03'><span>23</span></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section_w">
+                  <div class="top_part">
+                    <img src="../img/image/pic_2.1.png" alt="" class='image'/>          
+                    <button type='button' class='type'>
+                       创意越过界
+                    </button>
+                    <div class="top_wrap">
+                      <div class="writer">
+                        <p>来自</p>
+                        <p>Jsuan Seaennene</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="describe">
+                    <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+                  </div>
+                  <ul class='bottom_part'>
+                    <li class='b_icon01'><span>657</span></li>
+                    <li class='b_icon02'><span>56</span></li>
+                    <li class='b_icon03'><span>23</span></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section_w">
+                  <div class="top_part">
+                    <img src="../img/image/pic_2.2.png" alt="" class='image'/>          
+                    <button type='button' class='type'>
+                       创意越过界
+                    </button>
+                    <div class="top_wrap">
+                      <div class="writer">
+                        <p>来自</p>
+                        <p>Jsuan Seaennene</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="describe">
+                    <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+                  </div>
+                  <ul class='bottom_part'>
+                    <li class='b_icon01'><span>657</span></li>
+                    <li class='b_icon02'><span>56</span></li>
+                    <li class='b_icon03'><span>23</span></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section_w">
+                  <div class="top_part">
+                    <img src="../img/image/pic_2.3.png" alt="" class='image'/>          
+                    <button type='button' class='type'>
+                       创意越过界
+                    </button>
+                    <div class="top_wrap">
+                      <div class="writer">
+                        <p>来自</p>
+                        <p>Jsuan Seaennene</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="describe">
+                    <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+                  </div>
+                  <ul class='bottom_part'>
+                    <li class='b_icon01'><span>657</span></li>
+                    <li class='b_icon02'><span>56</span></li>
+                    <li class='b_icon03'><span>23</span></li>
+                  </ul>
+                </div>
+            </div>
+             <div class="section">
+                <div class="section_w">
+                  <div class="top_part">
+                    <img src="../img/image/pic_2.4.png" alt="" class='image'/>          
+                    <button type='button' class='type'>
+                       创意越过界
+                    </button>
+                    <div class="top_wrap">
+                      <div class="writer">
+                        <p>来自</p>
+                        <p>Jsuan Seaennene</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="describe">
+                    <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+                  </div>
+                  <ul class='bottom_part'>
+                    <li class='b_icon01'><span>657</span></li>
+                    <li class='b_icon02'><span>56</span></li>
+                    <li class='b_icon03'><span>23</span></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section_w">
+                  <div class="top_part">
+                    <img src="../img/image/pic_03.png" alt="" class='image'/>          
+                    <button type='button' class='type'>
+                       创意越过界
+                    </button>
+                    <div class="top_wrap">
+                      <div class="writer">
+                        <p>来自</p>
+                        <p>Jsuan Seaennene</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="describe">
+                    <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+                  </div>
+                  <ul class='bottom_part'>
+                    <li class='b_icon01'><span>657</span></li>
+                    <li class='b_icon02'><span>56</span></li>
+                    <li class='b_icon03'><span>23</span></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section_w">
+                  <div class="top_part">
+                    <img src="../img/image/pic_1.4.png" alt="" class='image'/>          
+                    <button type='button' class='type'>
+                       创意越过界
+                    </button>
+                    <div class="top_wrap">
+                      <div class="writer">
+                        <p>来自</p>
+                        <p>Jsuan Seaennene</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="describe">
+                    <p>inpulse街头艺术，让童心美成一道光街头艺术，让童心美成一道光街头艺术，</p>
+                  </div>
+                  <ul class='bottom_part'>
+                    <li class='b_icon01'><span>657</span></li>
+                    <li class='b_icon02'><span>56</span></li>
+                    <li class='b_icon03'><span>23</span></li>
+                  </ul>
+                </div>
+            </div>
+		    	</div>
+          <!-- 分页的页码 -->
+          <div class="pages">
+            <ul class='pages-num'>
+              <li class='num01'>1</li>
+              <li class='num02'>2</li>
+              <li class='num03'>3</li>
+              <li class='num04'>4</li>
+              <li class='num05'>5</li>
+            </ul>
+          </div>
+		    </div>
+  		</div>
+  	</div>
+     <!-- 登录注册 -->
+    <div class="s_register alert">
+      <!-- 叉掉框的× -->
+      <div class="close">
+         ×
+      </div>
+      <!-- logo -->
+      <h1>ideas</h1>
+      <p class="sub_title">new creative images</p>
+      <ul>
+        <li class="click_log">登录</li>
+        <li>|</li>
+        <li class='click_rt'>注册</li>
+      </ul>
+      <!-- 登录框，登录界面 -->
+      <div class="user_frame">
+        <div class="u_name">
+          <span class='u_img'></span><span class='vertical'>|</span>
+          <span class='input_frame'>
+            <input type="text" placeholder="手机号码" name='username' class="user"/>
+          </span>
+        </div>
+        <!-- 提示用户名为空或不存在-->
+        <div class="exist_name user01">     
+        </div>
+        <div class="u_pwd">
+           <span class='u_pwdimg'></span>
+           <span class='vertical'>|</span>
+           <span class='input_frame'>
+            <input type="password" placeholder="密码" class="password" name="password"/>
+           </span>
+        </div>
+        <!-- 提示密码不能为空或者密码不正确 -->
+        <div class="exist_name pwd01"></div>
+        <div class="r_pwd">
+            <input type="checkbox" class="checkbox" value="1" name="keep"/>
+            <label>记住密码</label>
+        </div>
+        <div class="forget_pwd">
+            <a href="#" class="fget_pwd">忘记密码？</a>
+        </div>        
+        <div class="login">
+            <button type='button' id="login">登录</button>
+        </div>
+      </div>
+      <!-- 注册框，注册界面 -->
+      <div class="register_frame">
+        <div class="u_phone">
+           <input type="text" value="" placeholder="手机号码" name="phone" class="phone" id="phone" />
+        </div>
+        <!-- 提示手机号码不能为空或者格式有错 -->
+        <div class="exist_phone"><span id="mess3"></span></div>
+        <div class="nickname">
+           <input type="text" value=""placeholder="昵称" class='love_name' name="nickname" id="nickname" />
+        </div>
+        <!-- 提示昵称不能为空或不能重复 -->
+        <div class="exist_name name01"><span id="mess4"></span></div>
+        <div class="u_pwd">
+           <input type="password" value="" placeholder="密码" class="password02" name="password" id="password" />
+        </div>
+        <!-- 提示密码不能为空 -->
+        <div class="exist_name pwd02"><span id="mess2"></span></div>
+        <!-- 确认密码框 -->
+        <div class="u_pwd">
+           <input type="password" value="" placeholder="请确认密码" class="password03" name="repassword" id="repassword" />
+        </div>
+        <!-- 提示确认密码不能为空 -->
+        <div class="exist_name pwd04"><span id="mess22"></span></div>
+        <!-- 验证码框 -->
+        <div class="identify_num">
+           <span>
+             <input type="text" class="checkednum" value="" placeholder="验证码" name='checkednum' id="checkednum" />
+           </span>
+           <!-- 验证码的图 -->
+           <span>
+             <img width="40%" alt="验证码" src="{:U('Home/Index/verify_c',array())}" title="点击刷新" onclick="this.src=this.src+'?'+Math.random()">
+           </span>
+        </div>  
+        <!-- 提示验证码出错 -->
+        <div class="wrong_num"><span id="mess5"></span></div>       
+        <div class="confirm">
+            <button type="button" id='submit1'>确认</button>
+          </div>
+      </div>
+    </div>
+     <!-- 忘记密码框 -->
+    <div class="reset_pwd alert">
+      <div class="close">
+       ×
+      </div>
+      <!-- logo -->
+      <h1>ideas</h1>
+      <p class="sub_title">new creative images</p>
+      <h1 class='changepw'>重置您的密码</h1>
+      <div class="reset_frame">
+        <div class="u_phone">
+           <input type="text" value=""placeholder="手机号码" class="add" name='phone'/>
+        </div>
+        <!-- 提示手机号码有错 -->
+        <div class="none_phone"></div>
+        <div class="identify_num">
+           <span>
+             <input type="text" placeholder="验证码" name='checknum' class="num"/>
+           </span>
+           <span>
+             <button type='button'>获取验证码</button>        
+           </span>
+        </div>
+        <!-- 提示验证码出错 -->
+        <div class="exist_name num02"></div>
+        <div class="u_pwd">
+           <input type="password" value="" placeholder="重置密码" class="rst_pwd" name="password"/>
+        </div>
+        <!-- 提示重置密码不能为空 -->
+        <div class="exist_name pwd03"></div>
+        <!-- 再次确认重置密码框 -->
+        <div class="u_pwd">
+           <input type="password" value="" placeholder="请确认重置密码" class="password05" name="password"/>
+        </div>
+        <!-- 提示重置密码不能为空 -->
+        <div class="exist_name pwd05"></div>
+        <div class="confirm">
+           <button type='button' id='resetPwd'>确认</button>
+        </div>
+      </div>
+    </div>
+    <!-- 覆盖一整个页面的灰屏 -->
+    <div class="grey"></div>
+    <!-- 提问弹出框-->
+    <div class="quiz">
+      <div class="close">
+       ×
+      </div>
+      <div class="quiz_wrap">
+        <h1>提问</h1>
+        <div class="write_pbm">
+          <textarea placeholder='写下你的问题' class='yourQuiz01'></textarea>
+        </div>
+        <!-- 提示一定要写下你的问题 -->
+        <div class="No-question"></div>
+        <div class="describe_pbm">
+          <textarea placeholder='写下你的问题描述（问题背景，条件等详细信息）' class='yourQuiz02'></textarea>
+        </div>
+        <!-- 提示一定要写下问题描述 -->
+        <div class="No-describe"></div>
+        <div class="keyword">
+           <textarea placeholder='写下你的问题的关键词' class='yourQuiz03'></textarea>
+        </div>
+        <!-- 提示一定要写下你的关键词 -->
+        <div class="No-key"></div>
+        <div class="about_asw">
+          <div class="anonymity">
+            <label for="">
+              <input type="checkbox" class='checkbox'>
+            </label>
+            <label for="" class='hide_name'>匿名</label>
+          </div>
+          <div class="invite_asw">
+            <button type='button' class='invite_per'>邀请回答</button>
+          </div>
+        </div>
+        <div class="publish">
+          <button type='button' class='submitButton'>发布</button>
+        </div>
+      </div>
+    </div>
+    <!-- 弹出邀请回答框 -->
+    <div class="invite">
+      <div class="close-invite">
+       ×
+      </div>
+      <div class="invite_wrap">
+        <!-- 搜索邀请用户的框 -->
+        <div class="srch_wrap">
+          <div class="srch_user">
+            <!-- 搜索的button -->
+            <button type='button' class='srch_btn'></button>
+            <input type="text" placeholder='搜索你想邀请的用户'>
+            <!-- 用户搜索出来的结果排列 -->
+            <ul class='srch_result'>
+             <!--  <li>111</li>
+              <li>652</li>
+              <li>652</li>
+              <li>652</li> -->
+            </ul>
+          </div>
+        </div>
+        <p class='about_ivite'> 
+          邀请相关用户回答，快速获得问题回答
+        </p>
+        <h3>热门用户</h3>
+        <!-- 用户名·相关话题等 -->
+         <div class="hot_person">
+            <!-- 用户名 -->
+            <p>
+              <span><img src="../img/user01.png" alt=""></span>  
+              <span class='hot_name'>用户名</span>
+            </p>
+            <!-- 相关话题 -->
+            <div class="hot_topic">
+              <label for="">相关话题</label>
+              <ul>
+                <li>网络游戏</li>
+                <li>电子竞技</li>
+                <li>游戏策划</li>
+              </ul>
+              <!-- 邀请按钮 -->
+              <div class="invite_btn">
+                <button type='button'>邀请</button>
+              </div>
+            </div>
+        </div>
+         <div class="hot_person">
+            <!-- 用户名 -->
+            <p>
+              <span><img src="../img/user01.png" alt=""></span>  
+              <span class='hot_name'>用户名</span>
+            </p>
+            <!-- 相关话题 -->
+            <div class="hot_topic">
+              <label for="">相关话题</label>
+              <ul>
+                <li>网络游戏</li>
+                <li>电子竞技</li>
+                <li>游戏策划</li>
+              </ul>
+              <!-- 邀请按钮 -->
+              <div class="invite_btn">
+                <button type='button'>邀请</button>
+              </div>
+            </div>
+        </div>
+         <div class="hot_person">
+            <!-- 用户名 -->
+            <p>
+              <span><img src="../img/user01.png" alt=""></span>  
+              <span class='hot_name'>用户名</span>
+            </p>
+            <!-- 相关话题 -->
+            <div class="hot_topic">
+              <label for="">相关话题</label>
+              <ul>
+                <li>网络游戏</li>
+                <li>电子竞技</li>
+                <li>游戏策划</li>
+              </ul>
+              <!-- 邀请按钮 -->
+              <div class="invite_btn">
+                <button type='button'>邀请</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

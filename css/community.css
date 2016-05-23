@@ -1,0 +1,373 @@
+.text,.text:hover,.section span,.section span:hover,.look_all,.look_all:hover,.myMessage li,.myMessage li:hover{
+	transition: all .35s ease-out;
+	-moz-transition: all .35s ease-out;
+	-webkit-transition: all .35s ease-out;
+	-ms-transition:all .35s ease-out;
+	-o-transition:all .35s ease-out;
+}
+html,body{
+	background-color: #e6e6e6;
+}
+.header .nav_wrap{
+	background: url(../img/nav_community.png) no-repeat -20px 0px;
+	background-size: 720px 105px;
+}
+.top_title{
+	margin-top: 36px;
+	margin-bottom: 5px;
+}
+.top_title ul{
+	width:290px;
+	height: 60px;
+	border-radius: 8px;
+	background: #b2b2b2;
+}
+.top_title ul li{
+	float: left;
+	color: #656666;
+	display: inline-block;
+	margin-top: 10px;
+	width:140px;
+	height:40px;
+	line-height: 40px; 
+	text-indent: 16px;
+	letter-spacing: 1px;
+	font-family: '造字工房悦圆';
+	font-size: 23px;
+	font-weight: bold;
+	cursor:pointer;
+}
+.top_title ul li:first-child{
+	border-right: 2px solid #5c5c5c;
+}
+.line{
+	width:100px;
+	height: 4px;
+	margin-left: 13px;
+	background: #656666;
+}
+
+.question .text{
+	text-indent: 25px;
+	letter-spacing: 5px;
+}
+.question .line{
+	display: none;
+}
+.text:hover{
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+	font-weight: bold;
+}
+.main_con,.detailed{
+	margin-top: 6px;
+	width:765px;
+	margin-right: 22px;
+	height:auto;
+	background: #cacaca;
+    padding:14px 30px 10px 14px;
+    float: left;
+    margin-bottom: 30px;
+   
+}
+.main_con{
+	/*display: none;*/
+}
+.detailed{
+	display: none;
+}
+.section{
+	width:100%;
+	/*height: 400px;*/
+	background: #969696;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	padding-bottom:10px;
+}
+.personal{
+	margin:0 0 10px 10px;
+	height: 68px;
+}
+.personal span{
+	display: inline-block;
+	float: left;
+	/*margin-top: 10px;*/
+}
+.perImg{
+	width:60px;
+	height: 60px;
+	border-radius: 50%;
+	border:1px solid #fff;
+	cursor:pointer;
+	margin-top: 10px;
+}
+.personal img:hover{
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+.name_nick{
+	color:#5b5c5c;
+	font-size: 24px;
+	margin-left: 13px;
+	margin-top: 27px;
+}
+.describe{
+	margin-left: 12px;
+	color:#5b5c5c;
+	font-size: 22px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+.describe span,.copywrite span{
+	display: inline-block;
+	float: left;
+}
+.dian{
+	width:5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #626262;
+	margin:13px;
+}
+.hot_answer{
+	margin-right: 10px;
+}
+.section p{
+	margin:8px 28px 8px 15px;
+	color:#5b5c5c;
+}
+.s_title{
+	font-size: 22px;
+}
+.b_answer{
+	font-size: 18px;
+	line-height: 28px;
+	height: 85px;
+	overflow: hidden;
+}
+.checkAll{
+	width:100%;
+	overflow: hidden;
+}
+
+.look_all{
+	float: right;
+	color:#fff;
+	margin-right: 28px;
+	font-size: 16px;
+	cursor:pointer;
+}
+.look_all:hover{
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+}
+
+.bottom{
+   margin:10px 28px 0px 16px;
+   height: 25px;
+   color:#4a4a4a;
+}
+.bottom_part{
+	height: 25px; 
+	float: left;
+}
+.bottom_part li{
+	cursor:pointer;
+	font-size: 14px;
+	color:#4a4a4a;
+	float: left;
+	display: inline-block;
+	margin-right: 30px;
+}
+.bottom_part span{
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+}
+.b_icon01
+{
+	background: url(../img/browse.png) no-repeat -10px -3px;
+}
+.b_icon02
+{
+	background: url(../img/praise.png) no-repeat -10px -3px;
+}
+.b_icon03
+{
+	background: url(../img/comment.png) no-repeat -10px -3px;
+}
+.copywrite{
+	float: right;
+    font-size: 16px;
+    cursor: pointer;
+}
+.copywrite .dian{
+	margin-top:9px;
+}
+.myMessage{
+	position: fixed;
+	margin-top: 6px;
+	margin-left:832px;
+	width:347px;
+	height: 418px;
+	border:4px solid #fff;
+	border-radius: 5px;
+}
+.myImage{
+	width:100%;
+	height: 278px;
+	position: relative;
+	overflow: hidden;
+}
+.blur{
+	position: absolute;
+	top:0px;
+	width:100%;
+	height: 274px;
+	 -webkit-filter: blur(30px); /* Chrome, Opera */
+	 -moz-filter: blur(30px);
+	 -ms-filter: blur(30px);    
+	 filter: blur(30px);  
+	 filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='30', MakeShadow='true');   /*  IE6~IE9  */
+}
+.w_img img{
+	position: absolute;
+	width:160px;
+	height: 160px;
+	top:59px;
+	left:93px;
+	border-radius: 50%;
+	border:4px solid #fff;
+}
+.myInfo li{
+	width:100%;
+	height: 45px;
+	border-bottom: 2px solid #eae6e6;
+	line-height: 200%;
+	color:#fdfdfd;
+	font-size: 24px;
+	font-family: 'Adobe 黑体 Std';
+	text-align: center;
+	background: #b1b3b3;
+	letter-spacing: 2px;
+	cursor:pointer;
+}
+.myMessage li:last-child{
+	border-bottom: 0;
+}
+.myMessage li:hover{
+	background: #969696;
+}
+
+/*每一个查看详细点进去关于那个问题的详细信息*/
+.hot-comment{
+	width:100%;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.hot-comment h3{
+	margin:0px 0 10px 20px;
+	font-size: 20px;
+	height: 20px;
+	color:#4c4646;
+}
+.line01{
+	display: inline-block;
+	width:730px;
+	margin-left: 15px;
+	height: 0;
+	border-bottom: 1px solid #ddd;
+}
+.comment-part{
+	width:725px;
+	padding:20px 0 15px 0;
+	margin-left:20px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 8px;
+}
+.comment-part span{
+   display: inline-block;
+   float: left;
+   font-size: 14px;
+   color:#5b5c5c;
+   margin-right: 10px;
+}
+.publicImg{
+	width:30px;
+	height: 30px;
+}
+.get_name{
+	margin-top: 6px;
+}
+.CommentUser{
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+.view{
+	clear: both;
+	font-size: 14px;
+	padding: 10px;
+	width:276px;
+	height: auto;
+	background: #A8A8A8;
+	border-radius: 4px;
+	position: relative;
+}
+.triangle-up{
+	position: absolute;
+	top:-10px;
+	left:50px;
+	width:0;
+	height:0;   
+	border-left:10px solid transparent;   
+	border-right:10px solid transparent;   
+	border-bottom:10px solid #A8A8A8;
+}
+/*我要评论*/
+.discuss{
+	width:695px;
+	padding:30px 60px 30px 10px;
+	background: #969696;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+.discuss h3{
+	font-size: 20px;
+	color:#4c4646;
+	margin:10px 0 20px 0;
+}
+.discuss textarea{
+	width:705px;
+	height: 80px;
+	border:none;
+	outline: none;
+	resize:none;
+	border-radius: 5px;
+	background:#cacaca;
+	text-indent: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	scrollbar-base-color:#272727;
+}
+.comment-tip{
+	color:red;
+}
+.comment_btn{
+	width:100%;
+	overflow: hidden;
+}
+.comment_btn button{
+	width:106px;
+	height: 36px;
+	background: #cacaca;
+	border-radius: 4px;
+	color:#4c4646;
+	border:none;
+	font-size: 18px;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	margin-top: 5px;
+	outline: none;
+	cursor:pointer;
+}
